@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1667915417 source:c:\users\ufca\desktop\liberada\claylton muniz\tic-tac-sho\tic-tac-sho\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tabela.h"
+
+1667915883 c:\users\ufca\desktop\liberada\claylton muniz\tic-tac-sho\tic-tac-sho\tabela.h
+
