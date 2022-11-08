@@ -34,6 +34,21 @@ col_alf(int n){
 
 }
 
+jog_alf(int n){
+
+    switch(n){
+
+    case 1:
+        printf("[x]");
+    break;
+    case 2:
+        printf("[o]");
+    break;
+
+    }
+
+}
+
 void tabela(int v[9][9]){
 
     int i, j, c;
@@ -48,7 +63,7 @@ void tabela(int v[9][9]){
         printf("\t\t\t\t\t  %d ", i + 1);
         for(j = 0; j < 9; j++){
             if(v[i][j] == 0) printf("[ ]", v[i][j]);
-            else printf("[%d]", v[i][j]);
+            else jog_alf(v[i][j]);
         }
         printf("\n");
     }
